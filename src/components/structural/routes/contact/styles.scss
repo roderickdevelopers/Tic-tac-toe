@@ -1,0 +1,49 @@
+@import '@/styles/global/breakpoints';
+@import '@/styles/global/variables';
+
+.contact_title {
+  display: flex;
+  flex-direction: column;
+  color: $color_jet;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    margin: 20px;
+    font-size: 75px;
+    color: $color_green;
+  }
+
+  hr {
+    width: 75%;
+    height: 2px;
+    background-color: $color_green;
+  }
+
+  span {
+    color: $color_jet;
+  }
+}
+
+.contact_body {
+
+  p {
+    margin: 0;
+    color: $color_jet;
+  }
+
+  h3 {
+    color: $color_green;
+  }
+
+  h4 {
+    margin: 0;
+    color: $color_green;
+  }
+
+  hr {
+    width: 75%;
+    height: 2px;
+    background-color: $color_green;
+  }
+}

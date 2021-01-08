@@ -1,4 +1,4 @@
-# boilerplate
+# Tic-tac-toe
 
 ## Project setup
 ```

@@ -1,0 +1,75 @@
+@import '@/styles/global/breakpoints';
+@import '@/styles/global/variables';
+
+.ttt_container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  .lets_play {
+    display: flex;
+    margin-top: 20px;
+    font-size: 60px;
+    color: $color_green;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      margin: 0;
+    }
+
+    @include breakpoint(large) {
+      font-size: 70px;
+    }
+
+    @include breakpoint(wide) {
+      font-size: 90px;
+    }
+
+    span {
+      color: $color_jet;
+    }
+  }
+
+  .login {
+    margin-bottom: 20px;
+    color: $color_jet;
+
+    ::placeholder {
+      text-indent: 1em;
+    }
+
+    input {
+      width: 200px;
+      height: 50px;
+      text-indent: 1em;
+      border: 2px solid;
+      border-color: $color_green;
+      border-radius: 5px;
+      outline: none;
+    }
+  }
+
+  .login_button {
+    
+    button {
+      width: 125px;
+      height: 50px;
+      font-size: 18px;
+      color: $color_white;
+      cursor: pointer;
+      background-color: $color_green;
+      border-color: $color_green;
+      border-radius: 5px;
+      outline: none;
+      box-shadow: $box_shadow;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+
+
