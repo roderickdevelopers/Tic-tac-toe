@@ -7,5 +7,25 @@ body {
 	height: 100%;
 	min-height: 100%;
 	margin: 0;
+}
+
+#app {
 	font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#nav {
+  padding: 30px;
+	font-size: 25px;
+	text-align: center;
+
+  a {
+    font-weight: bold;
+    color: #339989;
+
+    &.router-link-exact-active {
+      color: #2B2C28;
+    }
+	}
 }
