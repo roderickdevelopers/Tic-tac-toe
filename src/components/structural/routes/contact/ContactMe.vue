@@ -8,9 +8,9 @@
     <p>Front End Developer</p>
     <br>
     <br>
-    <h4>Email:</h4>
+    <h4>Website:</h4>
     <br>
-    <p>Roderickdevelopers@gmail.com</p>
+    <a href="https://www.roderickdevelopers.com/">Roderickdevelopers.com</a>
     <br>
     <br>
     <hr>
@@ -18,9 +18,9 @@
     <p>Full Stack Developer</p>
     <br>
     <br>
-    <h4>Email:</h4>
+    <h4>Website:</h4>
     <br>
-    <p>Ryan@designmonster.com</p>
+    <a href="https://www.designmonster.com/">Designmonster.com</a>
     <hr>
   </div>
 </template>

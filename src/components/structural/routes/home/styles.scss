@@ -1,5 +1,8 @@
-@import '@/styles/global/breakpoints';
-@import '@/styles/global/variables';
+.ttt_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .ttt_container {
   display: flex;
@@ -32,8 +35,16 @@
   }
 
   .login {
+    display: flex;
     margin-bottom: 20px;
     color: $color_jet;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      text-align: left;
+    }
 
     ::placeholder {
       text-indent: 1em;
@@ -50,8 +61,21 @@
     }
   }
 
+  .forgot_username {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .forgot_password {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
   .login_button {
-    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
     button {
       width: 125px;
       height: 50px;
@@ -70,6 +94,3 @@
     }
   }
 }
-
-
-

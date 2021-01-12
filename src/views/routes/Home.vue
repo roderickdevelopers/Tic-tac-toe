@@ -1,11 +1,5 @@
 <template>
-  <div class="home">
-    <img
-      alt="Tic Tac Toe logo"
-      src="@/assets/tictactoe.png"
-    >
-    <HelloWorld />
-  </div>
+  <HelloWorld />
 </template>
 
 <script>
